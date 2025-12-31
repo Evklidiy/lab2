@@ -1,6 +1,6 @@
 # Система управления складом автозапчастей (AutoPartsApp)
 
-![Build Status](https://github.com/ТВОЙ_НИКНЕЙМ/AutoPartsApp/actions/workflows/build.yml/badge.svg)
+![Build Status](https://github.com/Evklidiy/AutoPartsApp/actions/workflows/build.yml/badge.svg)
 
 Консольное приложение .NET Core для автоматизации учета на складе автозапчастей.
 Проект выполнен в рамках лабораторной работы №2 (Вариант 41).
