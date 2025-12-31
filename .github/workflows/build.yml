@@ -16,9 +16,9 @@ jobs:
       with:
         dotnet-version: '8.0.x'
     
-    # ВАЖНО: Проверь путь к файлу .csproj
-    # Если твой проект называется AutoPartsApp и лежит внутри папки решения AutoPartsApp,
-    # то путь будет AutoPartsApp/AutoPartsApp.csproj
+    # Р’РђР–РќРћ: РџСЂРѕРІРµСЂСЊ РїСѓС‚СЊ Рє С„Р°Р№Р»Сѓ .csproj
+    # Р•СЃР»Рё С‚РІРѕР№ РїСЂРѕРµРєС‚ РЅР°Р·С‹РІР°РµС‚СЃСЏ AutoPartsApp Рё Р»РµР¶РёС‚ РІРЅСѓС‚СЂРё РїР°РїРєРё СЂРµС€РµРЅРёСЏ AutoPartsApp,
+    # С‚Рѕ РїСѓС‚СЊ Р±СѓРґРµС‚ AutoPartsApp/AutoPartsApp.csproj
     - name: Restore dependencies
       run: dotnet restore AutoPartsApp/AutoPartsApp.csproj
       
